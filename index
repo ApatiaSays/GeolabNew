@@ -20,7 +20,10 @@
     		<li>contact</li>
     	</ul>
     </nav>
-   <div class="social">
+    <div class="burger">
+    	<img src="assets/icons/burger.svg">
+    </div>
+   	<div class="social">
   			<ul>
 	    		<li class="social-list">
 					<a href="#">
@@ -43,44 +46,62 @@
    		</div>
 
 </header>
-<section class="banner">
-	<img src="assets/img/banner.jpg">
-	<p class="banner-text">things aren't always <br> 
+<section class="container-fluid banner-container">
+	<div class="container banner-child">
+	<div class="text-box">
+	things aren't always <br> 
 	 #000000 <br> 
 	 or <br> 
 	 #ffffff</p> 
+	 </div>
 	<img class="html-icon" src="assets/icons/HTML.svg">
-</section>
-<section class="videos-menu">
-	<p class="menu-titles">VIDEOS | <a class="view-all" href="#"> view all videos</a></p>
-	<iframe  src="x" frameborder="0" allowfullscreen></iframe>
-	<iframe  src="x" frameborder="0" allowfullscreen></iframe>
-</section>
-
-<section class="news-menu">
-<h1 class="news-title">NEWS | <a class="view-all" href="#">view all news</a></p>
-	<a href="#"><img  src="assets/img/typography.jpg" alt="Typography"></a>
-	<a href="#"><img  src="assets/img/social_media.jpg" alt="Marketing"></a>
-	<a href="#"><img  src="assets/img/coding.jpg" alt="Coding"></a>
-	<a href="#"><img  src="assets/img/design.jpg" alt="Design"></a> 
-	<a href="#"><h2 class="news-options">TYPOGRAPHY LAB</h2></a>
-	<a href="#"><h2 class="news-options">ONLINE MARKETING</h2></a>
-	<a href="#"><h2 class="news-options">C# CODING</h2></a>
-	<a href="#"><h2 class="news-options">INTERFACE DESIGN</h2></a>
-</section>
-
-<section class="featured-menu">
-	<h1 class="featured-title">Featured | <a class="view-all" href="#">view all featured media </a></h1>
-	<div class="cursor1">
-		<h2>Responsive Web Design</h2>
-		<img  src="assets/icons/cursor1.png" alt="cursor">
-		<h3 class="bottom-text">Approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</h3> <a  class="read-more1" href="#"><p>read more</p></a>
 	</div>
-	<div class="phone2">
+</section>
+
+<section class="videos-menu container-fluid clearfix">
+	<h1 class="menu-titles">VIDEOS | <a class="view-all" href="#"> view all videos</a></h1>
+	<div class="container videos-parent clearfix">
+		<div class="part-video left"> <iframe></iframe></div>
+		<div class="part-video right"><iframe></iframe></div>
+	</div>
+</section>
+
+<section class="container-fluid news-menu">
+	 <div class="container ">
+	 	<h1>NEWS | <a class="view-all" href="#">view all news</a></h1>
+	 </div>
+	 <div class="container">
+	 	<article class="part-article">
+	 		<div class="image-block" style="background-image: url('assets/img/typography.jpg');"></div>
+	 		<h1 class="article-title">Online Marketing</h1>
+	 	</article><!-- 
+	 	--><article class="part-article">
+	 		<div class="image-block" style="background-image: url('assets/img/social_media.jpg');"></div>
+	 		<h1 class="article-title">Online Marketing</h1>
+	 	</article><!-- 
+	 	--><article class="part-article">
+	 		<div class="image-block" style="background-image: url('assets/img/coding.jpg');"></div>
+	 		<h1 class="article-title">Online Marketing</h1>
+	 	</article><!-- 
+	 	--><article class="part-article">
+	 		<div class="image-block" style="background-image: url('assets/img/design.jpg');"></div>
+	 		<h1 class="article-title">Online Marketing</h1>
+	 	</article>
+	 </div>
+</section>
+
+<section class="featured-menu container-fluid">
+	<h1 class="featured-title">Featured | <a class="view-all" href="#">view all featured media </a></h1>
+	<div class="container cursor1">
+		<h2>Responsive Web Design</h2>
+		<div class="featured-image cursor-image"></div>
+		<div class="text-box bottom-text">Approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</div> <a href="#"><p  class="read-more1">read more</p></a>
+	</div>
+	<div class="container phone2">
 	<h2>App Development</h2>
-	<img  src="assets/icons/phone2.png" alt="android">
-	<h3 class="bottom-text">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</h3>
-	<a class="read-more2" href="#"><p>read more</p></a>
+	<div class="featured-image phone-image"></div>
+	<div class="text-box bottom-text">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</div>
+	<a href="#"><p class="read-more2">read more</p></a>
 	</div>
 	</section>
 
