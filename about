@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,49 +48,35 @@
 		  		</a></div>
 		</div>
 </header>
-<section class="container-fluid banner-container">
-	<div class="container banner-child">
-	<div class="text-box">
-	things aren't always <br> 
-	 #000000 <br> 
-	 or <br> 
-	 #ffffff</p> 
-	 </div>
-	<img class="html-icon" src="assets/icons/HTML.svg">
+
+
+<div class="about-banner">
+	<div class="about-banner-child"><h1>about</h1>
+	</div>
+</div>
+
+<section>
+	<div class="container about-page">
+	<div class="top-container">
+	  <div class="about-blocks">
+		<img class="mission" src="assets/icons/arrow.svg">
+		<h1>mission</h1>
+		<h4><a href="#">distribute html experience</a></h4>
+	  </div>
+	    <div class="about-blocks">
+		<img class="vision" src="assets/icons/vision.svg">
+		<h1>vision</h1>
+		<h4><a href="#">distribute html experience</a></h4>
+	  </div>
+	    <div class="about-blocks">
+		<img class="phylosophy" src="assets/icons/phylosophy.svg">
+		<h1>phylosophy</h1>
+		<h4><a href="#">distribute html experience</a></h4>
+	  </div>
+	  </div>	
 	</div>
 </section>
 
-<section class="videos-menu container-fluid clearfix">
-	<h1 class="menu-titles">VIDEOS | <a class="view-all" href="#"> view all videos</a></h1>
-	<div class="container videos-parent clearfix">
-		<div class="part-video left"> <iframe></iframe></div>
-		<div class="part-video right"><iframe></iframe></div>
-	</div>
-</section>
-
-<section class="container-fluid news-menu">
-	 <div class="container ">
-	 	<h1>NEWS | <a class="view-all" href="#">view all news</a></h1>
-	 </div>
-	 <div class="container">
-	 	<article class="part-article">
-	 		<div class="image-block" style="background-image: url('assets/img/typography.jpg');"></div>
-	 		<h1 class="article-title">Online Marketing</h1>
-	 	</article><!-- 
-	 	--><article class="part-article">
-	 		<div class="image-block" style="background-image: url('assets/img/social_media.jpg');"></div>
-	 		<h1 class="article-title">Online Marketing</h1>
-	 	</article><!-- 
-	 	--><article class="part-article">
-	 		<div class="image-block" style="background-image: url('assets/img/coding.jpg');"></div>
-	 		<h1 class="article-title">Online Marketing</h1>
-	 	</article><!-- 
-	 	--><article class="part-article">
-	 		<div class="image-block" style="background-image: url('assets/img/design.jpg');"></div>
-	 		<h1 class="article-title">Online Marketing</h1>
-	 	</article>
-	 </div>
-</section>
 
 <section class="featured-menu container-fluid">
 	<h1 class="featured-title">Featured | <a class="view-all" href="#">view all featured media </a></h1>
